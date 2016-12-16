@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 
 import { connect } from 'react-redux';
-import { addTodo, completeTodo, setVisibilityFilter, VisibilityFilters } from '../actions';
+import { addTodo, completeTodo, setVisibilityFilter, VisibilityFilters } from '../actions/index';
 
 
 class App extends Component {
